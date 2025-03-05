@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './ExpenseForm.css'
+import { MdSend } from 'react-icons/md'
 
 export class ExpenseForm extends Component {
   render() {
