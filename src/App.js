@@ -1,5 +1,7 @@
+// 최종화면
 import { Component } from "react";
 import "./App.css";
+import ExpenseForm from "./components/ExpenseForm";
 
 
 class App extends Component {
@@ -10,6 +12,7 @@ class App extends Component {
 
                 <div style={{width: '100%', backgroundColor: 'red', padding: '1rem'}}>
                     {/* Expense Form */}
+                    <ExpenseForm/>
                 </div>
 
                 <div style={{width: '100%', backgroundColor: 'orange', padding: '1rem'}}>
