@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Expenselist.css'
+import ExpenseItem from './ExpenseItem'
 
 export class ExpenseList extends Component {
   render() {
@@ -7,16 +8,7 @@ export class ExpenseList extends Component {
         <>
         <ul className='list'>
             {/* Expense Item */}
-            {expenses.map(expense => {
-                return (
-                    <ExpenseItem
-                        expense={expense}
-                        key={expense.id}
-                        handleDelete={handleDelete}
-                        handleEdit={handleEdit}
-                    />
-                )
-            })}
+            <ExpenseItem/> 
         </ul>
         {expenses.length > 0 && (
             <button className='btn' onClick={clearItems}>
