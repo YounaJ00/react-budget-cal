@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-budget-cal/static/css/main.6525460b.css",
+    "main.js": "/react-budget-cal/static/js/main.499e3788.js",
+    "static/js/453.ec835545.chunk.js": "/react-budget-cal/static/js/453.ec835545.chunk.js",
+    "index.html": "/react-budget-cal/index.html",
+    "main.6525460b.css.map": "/react-budget-cal/static/css/main.6525460b.css.map",
+    "main.499e3788.js.map": "/react-budget-cal/static/js/main.499e3788.js.map",
+    "453.ec835545.chunk.js.map": "/react-budget-cal/static/js/453.ec835545.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6525460b.css",
+    "static/js/main.499e3788.js"
+  ]
+}
