@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './ExpenseForm.css'
 import { MdSend } from 'react-icons/md'
 
-export class ExpenseForm extends Component {
-  render() {
+const ExpenseForm = ({handleCharge, charge, edit, handleAmount, amount, handleSubmit}) => {
     return (
         <form onSubmit={handleSubmit}>
         <div className='form-center'>
@@ -29,6 +28,7 @@ export class ExpenseForm extends Component {
                     name="amount"
                     value={amount}
                     placeholder="예) 100"
+                    // change 이벤트가 발생했을때 handleAmount 함수 호출
                     onChange={handleAmount}
                 />
             </div>
@@ -39,7 +39,7 @@ export class ExpenseForm extends Component {
         </button>
     </form>
     )
-  }
+  
 }
 
 export default ExpenseForm
